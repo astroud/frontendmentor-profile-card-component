@@ -5,31 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <div class="card">
+    <img src="./images/image-victor.jpg" alt="Photo of Victor" class="card__photo" width="96" height="96">
+    <p>
+      <span class="card__name">Victor Crest</span>
+      <span class="card__age">26</span>
+    </p>
+    <p>
+      <span class="card__location">London</span>
+    </p>
+    <div class="card__stats">
+      <div class="stats__followers">
+        <span class="stats__number">80K</span>
+        <span class="stats__label">Followers</span>
+      </div>
+  
+      <div class="stats__likes">
+        <span class="stats__number">803K</span>
+        <span class="stats__label">Likes</span>
+      </div>
+      
+      <div class="stats__photos">
+        <span class="stats__number">1.4K</span>
+        <span class="stats__label">Photos</span>
+      </div>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+    </div>
+    
+  </div>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=astroud" target="_blank"
+      title="Frontend Mentor Community">Frontend Mentor</a>.
+    Coded by <a href="https://aaronstroud.com">Aaron Stroud</a>.
   </div>
 </body>
 </html>
