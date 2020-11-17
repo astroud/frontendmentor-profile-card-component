@@ -23,6 +23,7 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
+  transition: background 1s ease-in-out;
 }
 
 .card {
@@ -87,12 +88,20 @@ body {
   text-align: center;
 }
 
+.stats__followers:hover,
+.stats__likes:hover,
+.stats__photos:hover {
+  scale: 1.3;
+  transition: scale 0.05s ease-in-out;
+}
+
 .stats__number {
   width: 100%;
   font-size: 18px;
   font-weight: 700;
   margin-top: -5px;
   margin-bottom: 9px;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .stats__label {
