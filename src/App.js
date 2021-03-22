@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
                 url(bg-pattern-bottom.svg) 650px 400px no-repeat,
                 var(--dark-cyan);
     padding: 1.5rem;
+    font-family: 'Kumbh Sans', sans-serif;
   }
 `
 

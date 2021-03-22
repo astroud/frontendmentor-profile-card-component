@@ -6,6 +6,7 @@ export const ProfileCardWrapper = styled.div`
   background: #fff;
   box-shadow: 0 3.125rem 6.25rem -1.25rem rgba(8, 70, 94, 0.504835);
   border-radius: 0.9375rem;
+  font-family: 'Kumbh Sans', sans-serif;
 `
 
 export const CardTop = styled.div`
