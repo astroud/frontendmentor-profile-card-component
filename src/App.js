@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { createGlobalStyle } from 'styled-components'
+import StyledWrapper from './app.elements'
+import ProfileCard from './components/ProfileCard/ProfileCard'
+import profilePicture from './image-victor.jpg'
+
+const GlobalStyle = createGlobalStyle`
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --text-color: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --text-color-light: hsl(0, 0%, 59%);
+    --stats-border: #E8E9EC;
+  }
+
+  body {
+    background: url(bg-pattern-top.svg) -250px -530px no-repeat,
+                url(bg-pattern-bottom.svg) 650px 400px no-repeat,
+                var(--dark-cyan);
+    padding: 1.5rem;
+  }
+`
+
+const sampleProfile = {
+  profilePicture,
+  name: 'Victor Crest',
+  age: '26',
+  location: 'London',
+  followers: '80K',
+  likes: '803K',
+  photos: '1.4K',
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <GlobalStyle />
+      <StyledWrapper>
+        <ProfileCard profile={sampleProfile} />
+      </StyledWrapper>
+    </>
+  )
 }
 
-export default App;
+export default App
