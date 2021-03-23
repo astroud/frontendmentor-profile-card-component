@@ -1,87 +1,47 @@
-# Frontend Mentor - Profile card component
+# frontendmentor-profile-card-component
+
+A profile card component (React)
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+This React Profile card is based on this [Frontend Mentor visual design](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/). My initial submission used html/css but has since been refactored into a [React](https://reactjs.org) component using [Styled Components](https://styled-components.com).
 
-Thanks for checking out this front-end coding challenge.
+🌲 [View Component](https://frontendmentor-profile-card-component-green.vercel.app/)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+🔗 [FEM Submission](https://www.frontendmentor.io/solutions/profile-card-component-with-css-tfzPpV6dO)
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Table of Contents
 
-## The challenge
+- [Background](#Background)
+- [Install](#Install)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [License](#License)
 
-Your challenge is to build out this profile card component and get it looking as close to the design as possible.
+## Background
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+This project has a dual purpose—to serve as a basic [React](http://reactjs.org) component for a Frontend Mentor challenge and to serve as an example of a React component for the challenge.
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+This component uses [Styled Components](https://styled-components.com), [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) for type checking, and [Airbnb's](https://www.npmjs.com/package/eslint-config-airbnb) [ESLint](https://eslint.org) config.
 
-## Where to find everything
+## Install
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to.
+First [clone the repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
+To install dependencies, you'll need [npm](https://www.npmjs.com/get-npm) (distributed with [Node.js](https://nodejs.org/)) or [yarn](https://yarnpkg.com).
 
-If you would like the Sketch file in order to inspect the design in more detail you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+```bash
+cd <project directory>
+npm install
+```
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## Usage
 
-There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+In the project directory, you can run the app with:
 
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, [have a read through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using [Vercel](https://bit.ly/fem-vercel). We've got more information about deploying your project with Vercel below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are a number of ways to host your project for free. We recommend using [Vercel](https://bit.ly/fem-vercel) as it's an amazing service and extremely simple to get set up with. If you'd like to use Vercel, here are some steps to follow to get started:
-
-1. [Sign up to Vercel](https://bit.ly/fem-vercel-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [Vercel for GitHub](https://vercel.com/docs/v2/git-integrations/vercel-for-github) integration.
-2. Connect your project to Vercel from the ["Import project" page](https://vercel.com/import), using the "From Git Repository" button and selecting the project you want to deploy.
-3. Once connected, every time you `git push`, Vercel will create a new [deployment](https://vercel.com/docs/v2/platform/deployments) and the deployment URL will be shown on your [Dashboard](https://vercel.com/dashboard). You will also receive an email for each deployment with the URL.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Submit it on the platform so that other users will see your solution on the site. Here's our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) to help you do that.
-2. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-3. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor** including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-
-## Giving feedback
-
-Feedback is always welcome, so if you have any to give on this challenge please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
-
-## Community Sponsors
-
-A massive thank you to our community sponsors!
-
-- [Zero to Mastery](https://bit.ly/fem-ztm) is an incredible learning resource for all things web development. Led by Andrei Neagoie, the courses are really high-quality content and cover a wide range of in-demand skills.
-- [Diversify Tech](https://bit.ly/fem-diversify-tech) is an amazing resource for underrepresented people in tech. The site features job listings for anyone seeking new opportunities. The resource section is also full of useful links to dive into!
-- [Triplebyte](http://bit.ly/fem-triplebyte) is a really nice offering if you're looking for a new role. It's a free service that lets you take a confidential quiz. Based on your results companies will pitch you for their vacant roles!
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
+```bash
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -89,57 +49,130 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### How to edit the CSS styles
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+There are a [variety of ways](https://reactjs.org/docs/faq-styling.html) to style React components. This project uses [Styled Components](https://styled-components.com). Styled Components allow you to build smaller, _styled_ components using plain CSS ("Every style is a component"). Josh Comeau's [The styled-components Happy Path](https://www.joshwcomeau.com/css/styled-components/) is an excellent introduction and the official docs are wonderful as well.
 
-### `yarn build`
+The ProfileCard component's CSS styles are found in _ProfileCard.elements.js_ and _App.js_, but the React app also has styles used to center component (_app.elements.js_).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- App.js
+- app.elements.js
+- ProfileCard.elements.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### App.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In _App.js_, a [GlobalStyle](https://styled-components.com/docs/api#createglobalstyle) is created with a simple CSS reset, CSS variables, and a background only used when displaying the component within this app. For a bigger project, it would be better to define the GlobalStyle in another file.
 
-### `yarn eject`
+```js
+const GlobalStyle = createGlobalStyle`
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --text-color: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --text-color-light: hsl(0, 0%, 59%);
+    --stats-border: #E8E9EC;
+  }
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  body {
+    background: url(bg-pattern-top.svg) -250px -530px no-repeat,
+                url(bg-pattern-bottom.svg) 650px 400px no-repeat,
+                var(--dark-cyan);
+    padding: 1.5rem;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+`;
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The GlobalStyle is a special type of _StyledComponent_ that does not accept children. When placed at the the top of the React tree, "the global styles will be injected when the component is 'rendered'." [docs](https://styled-components.com/docs/api#createglobalstyle)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In the _App()_ component below `<GlobalStyle />`, the standard component `<ProfileCard />` is surrounded by a _StyledComponent_ called `<StyledWrapper>`. The wrapper is simply a `<div>` with CSS styles defined in _app.elements.js_. The wrapper is used to center the component.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```js
+function App() {
+  return (
+    <>
+      <GlobalStyle />
+      <StyledWrapper>
+        <ProfileCard profile={sampleProfile} />
+      </StyledWrapper>
+    </>
+  );
+}
+```
 
-## Learn More
+#### ProfileCard.elements.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This file contains all of the component's styles (minus CSS variables): `<div>`s, `<p>`s, `<span>`s, and an `<img>`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Each styled HTML element is given a component name and then defined with regular CSS. You can even include media queries like in the _ProfileStats_ `<div>`.
 
-### Code Splitting
+Try experimenting with the CSS rules. When you save, the page should automatically refresh with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```js
+import styled from "styled-components";
 
-### Analyzing the Bundle Size
+export const ProfileCardWrapper = styled.div`
+  min-width: 10.375rem; /* clamp wasn't respecting it's min-width */
+  width: clamp(10.375rem, 100%, 21.875rem);
+  background: #fff;
+  box-shadow: 0 3.125rem 6.25rem -1.25rem rgba(8, 70, 94, 0.504835);
+  border-radius: 0.9375rem;
+  font-family: "Kumbh Sans", sans-serif;
+`;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+…
 
-### Making a Progressive Web App
+export const ProfileStats = styled.div`
+  width: 100%;
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2);
+  row-gap: 0.5625rem;
+  padding-top: 1.5rem;
+  border-width: 0.0625rem 0px 0px 0px;
+  border-style: solid;
+  border-color: var(--stats-border);
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  @media only screen and (max-width: 268px) {
+    grid-template-columns: repeat(1, auto);
+    row-gap: 1rem;
+  }
+`;
 
-### Advanced Configuration
+export const StatWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+export const Stat = styled.span`
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 0.5625rem;
+`;
 
-### Deployment
+export const Label = styled.span`
+  font-size: 0.625rem;
+  letter-spacing: 0.09375rem;
+  color: var(--text-color-light);
+  text-align: center;
+`;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `yarn build` fails to minify
+If you are a member of the Frontend Mentor community, you can [comment here](https://www.frontendmentor.io/solutions/profile-card-component-with-css-tfzPpV6dO).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Open an issue](https://github.com/RichardLitt/standard-readme/issues/new), submit PRs, or ping me on twitter [@aaron_stroud](https://twitter.com/aaron_stroud/).
+
+## License
+
+[MIT](https://github.com/RichardLitt/standard-readme/blob/master/LICENSE) © Aaron Stroud
