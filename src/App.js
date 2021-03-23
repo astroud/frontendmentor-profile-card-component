@@ -20,11 +20,19 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: url(bg-pattern-top.svg) -250px -530px no-repeat,
-                url(bg-pattern-bottom.svg) 650px 400px no-repeat,
+    background: url(bg-pattern-top.svg) -12.4vw -32.8vw no-repeat,
+                url(bg-pattern-bottom.svg) 48.1vw 33vw no-repeat,
                 var(--dark-cyan);
     padding: 1.5rem;
     font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  @media screen and (max-width: 375px) {
+    body {
+      background: url(bg-pattern-top.svg) -210vw -113vw no-repeat,
+                  url(bg-pattern-bottom.svg) 30vw 105vw no-repeat,
+                  var(--dark-cyan);
+    }
   }
 `
 

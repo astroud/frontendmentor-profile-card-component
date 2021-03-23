@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ProfileCardWrapper = styled.div`
-  min-width: 10.375rem; /* clamp wasn't respecting it's min-width */
   width: clamp(10.375rem, 100%, 21.875rem);
   background: #fff;
   box-shadow: 0 3.125rem 6.25rem -1.25rem rgba(8, 70, 94, 0.504835);
